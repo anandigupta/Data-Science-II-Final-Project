@@ -5,7 +5,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import requests
 import numpy as np
-import chart_studio.plotly as py
+import plotly as py
 import plotly.offline as po
 import plotly.graph_objs as pg
 import matplotlib.pyplot as plt
