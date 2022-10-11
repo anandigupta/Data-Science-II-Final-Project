@@ -16,11 +16,12 @@ import plotly.express as px
 st.title("Climate Change Dashboard: Global Impact")
 st.title("Anandi Gupta")
 
-"""
-Climate change has been declared the "single biggest health threat facing humanity," according to the World Health Organization ([link](https://www.cbsnews.com/news/climate-change-health-threat-who/)). Increasingly frequent climate disasters such as heat waves, storms and floods, as well as the disruption of food systems, the spread of diseases from animal populations, food- and water-borne illnesses, and related mental health issues pose major threats to human health.
+if st.sidebar.checkbox("Background and Overview", key="intro"):
+    """
+    Climate change has been declared the "single biggest health threat facing humanity," according to the World Health Organization ([link](https://www.cbsnews.com/news/climate-change-health-threat-who/)). Increasingly frequent climate disasters such as heat waves, storms and floods, as well as the disruption of food systems, the spread of diseases from animal populations, food- and water-borne illnesses, and related mental health issues pose major threats to human health.
 
-Although climate change is a global crisis, it will disproportionately affect certain regions, in part due to geographic reasons that make them more vulnerable to extreme weather events, as well as because of socio-economic factors such as the reliance on natural resource intensive industries such as agriculture and the lack of strong institutions and coping capacity. This dashboard enables users to explore geographic differences in contributions to climate change as well as the direct and indirect effects of climate change (particularly on health).
-"""
+    Although climate change is a global crisis, it will disproportionately affect certain regions, in part due to geographic reasons that make them more vulnerable to extreme weather events, as well as because of socio-economic factors such as the reliance on natural resource intensive industries such as agriculture and the lack of strong institutions and coping capacity. This dashboard enables users to explore geographic differences in contributions to climate change as well as the direct and indirect effects of climate change (particularly on health).
+    """
 
 ### Set url names
 
