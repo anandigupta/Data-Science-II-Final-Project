@@ -16,7 +16,7 @@ import plotly.express as px
 st.title("Climate Change Dashboard: Global Impact")
 st.title("Anandi Gupta")
 
-if st.sidebar.checkbox("Background and Overview", key="intro"):
+if st.sidebar.checkbox("Background and Overview", value=True, key="intro"):
     """
     Climate change has been declared the "single biggest health threat facing humanity," according to the World Health Organization ([link](https://www.cbsnews.com/news/climate-change-health-threat-who/)). Increasingly frequent climate disasters such as heat waves, storms and floods, as well as the disruption of food systems, the spread of diseases from animal populations, food- and water-borne illnesses, and related mental health issues pose major threats to human health.
 
